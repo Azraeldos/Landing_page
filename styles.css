@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.header, .footer, .navbar{
+background-color: #1F2937;
+}
+.header{
+padding: 150px;
+}
+.footer{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font: light italic;
+    color:#1F2937
+
+}
+.navbar{
+    display: flex;
+    color: white;
+    font-size: larger;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+ a, ul, li{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+.squares{
+    height: 50px;
+    width: 50px;
+    border:2px blue;
+    padding: 50px;
+    outline: blue solid 10px;
+}
+.random_info{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px;
+}
+.header_1{
+    text-align: center;
+}
+.quote{
+    padding: 150px;
+}
+.sign_up{
+    padding: 150px;
+}
+
+
