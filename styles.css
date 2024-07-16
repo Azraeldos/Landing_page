@@ -8,6 +8,13 @@ background-color: #1F2937;
 .header{
 padding: 150px;
 }
+.header_sign_up{
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
 .footer{
     color: white;
     text-align: center;
@@ -40,7 +47,8 @@ padding: 150px;
     width: 50px;
     border:2px blue;
     padding: 50px;
-    outline: blue solid 10px;
+    outline: blue solid 5px;
+    border-radius: 25px;
 }
 .random_info{
     display: flex;
@@ -55,6 +63,12 @@ padding: 150px;
 }
 .sign_up{
     padding: 150px;
+}
+.sign_up_content{
+    background-color: blue;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
 }
 
 
