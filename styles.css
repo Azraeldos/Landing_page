@@ -8,12 +8,21 @@ background-color: #1F2937;
 .header{
 padding: 150px;
 }
-.header_sign_up{
+.big_sign_up{
     color: white;
     background-color: blue;
     border-radius: 20px;
     padding: 10px;
     
+}
+.big_text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.navbar, .big_subtext{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .footer{
     color: white;
@@ -33,6 +42,9 @@ padding: 150px;
     font-size: larger;
     justify-content: space-evenly;
     gap: 10px;
+}
+button{
+ background-color: #3882F6;
 }
 
  a, ul, li{
@@ -55,8 +67,9 @@ padding: 150px;
     justify-content: space-evenly;
     padding: 150px;
 }
-.header_1{
+.second_big_text{
     text-align: center;
+    margin-top: 50px;
 }
 .quote{
     padding: 150px;
