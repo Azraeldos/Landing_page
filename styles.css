@@ -8,12 +8,20 @@ background-color: #1F2937;
 .header{
 padding: 150px;
 }
+.header_content{
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+.big_logo{
+    /* float: right; */
+}
 .big_sign_up{
     color: white;
-    background-color: blue;
-    border-radius: 20px;
+    background-color: #3882F6;
+    border-radius: 5px;
     padding: 10px;
-    
+    width: 100px;
 }
 .big_text{
     font-size: 48px;
@@ -23,6 +31,13 @@ padding: 150px;
 .navbar, .big_subtext{
     font-size: 18px;
     color: #E5E7EB;
+}
+.navbar{
+    display: flex;
+    color: white;
+    font-size: larger;
+    justify-content:space-evenly;
+    gap: 550px;
 }
 .footer{
     color: white;
@@ -36,23 +51,15 @@ padding: 150px;
     color:#1F2937
 
 }
-.navbar{
-    display: flex;
-    color: white;
-    font-size: larger;
-    justify-content: space-evenly;
-    gap: 10px;
-}
-button{
- background-color: #3882F6;
-}
-
  a, ul, li{
     list-style: none;
     text-decoration: none;
     display: flex;
     gap: 10px;
     color: white;
+}
+.info{
+    max-width: 200px;
 }
 .squares{
     height: 50px;
@@ -66,22 +73,53 @@ button{
     display: flex;
     justify-content: space-evenly;
     padding: 150px;
+    margin-top: -90px;
 }
 .second_big_text{
     text-align: center;
     margin-top: 50px;
+    font-weight: bolder;
 }
 .quote{
     padding: 150px;
 }
 .sign_up{
     padding: 150px;
+    color: white;
 }
 .sign_up_content{
-    background-color: blue;
-    border-radius: 20px;
-    text-align: center;
-    padding: 20px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    text-align: left;
+    padding: 40px;
 }
-
-
+.second_sign_up{
+    display: flex;
+    background-color: #3882F6;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: solid white ;
+  border-radius: 5px;
+}
+.banner_header{
+    font-weight: bolder;
+}
+.quote_author{
+    float: right;
+}
+.second_sign_up_text{
+   display: flex;
+   justify-content: space-between;
+}
+.big_sub_subtext{
+    display: flex;
+    justify-content: space-between;
+}
